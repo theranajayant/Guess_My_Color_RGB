@@ -1,12 +1,12 @@
 # Guess My Color RGB - A free RGB based color guessing game
 
-# About : 
+## About : 
 Death By RGB is for people like me who keep forgetting color combinations.
 
-# Languages and Specs: 
+## Languages and Specs: 
 HTML, CSS, Vanilla Script(JS)
 
-# Mechanism:
+## Mechanism:
 RGB is generated in random order using Math.Random and allocated to Div containers.
 Click events are handled using Java Script event.
 The color fade in and fade out is added by JS handler by replacing CSS class in the Div item.
