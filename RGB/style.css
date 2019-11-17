@@ -1,0 +1,208 @@
+/* Default color theme designed for mobile and devices less than width 1024px OR iPad screen resolution */
+
+/* Removing default value and style defined by browser  */
+html,body{
+    background-color:#171717;
+    padding: 0;
+    margin:0;
+    font-family: roboto;
+}
+
+/* container that consists the whole game */
+.container{
+    width:800px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+/* Empty div color boxesdefault property */
+.square{
+    height: 100%;
+    width: 30%;
+    height: 25px;
+    background-color: purple;
+    margin: 1.6%;
+    float: left;
+    border-radius:10%;  
+    border: 5px solid black;
+    transition-property: background-color;
+    transition-duration: 0.6s;
+}
+
+/* Retust in Menu CSS */
+#result{
+    margin: 0 2px;
+}
+
+/* CSS for easy hard button, Feature will be realeased in future update */
+#easy,#hard{
+    display: inline-block;
+}
+
+/* The whole "The great rgb(27, 247, 36)Game" default property */
+
+h1{
+    margin: 0;
+    background-color: steelblue;
+    color:white;
+    text-align: center;
+    padding:10px 0%;
+    font-family: tahoma;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+/* span inside h1 representing RGB Value property*/
+#secretColor{
+    font-size: 200%;
+}
+
+/* Menu Stripe color */
+.stripe{
+    background-color: white;
+    height: 30px;
+    text-align: center;
+}
+
+/* default button color */
+button{
+    border: 0;
+    background-color:
+    white;
+    font-size: 18px;
+    height: 100%;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+/* Default button hover */
+
+button:hover{
+    background-color: steelblue;
+    color: white;
+}
+
+#score{
+    margin-right:20%;
+}
+#result{
+    margin-left:20%;
+}
+
+.skip{
+    padding: 10px;
+    border-color: tomato;
+    color:white;
+}
+
+
+/* designed for tablets */
+@media (max-width:600px){
+
+.container{
+    width:550px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+
+.square{
+    height: 100%;
+    width: 6.4%;
+    height: 25%;
+    background-color: purple;
+    margin: 1.6%;
+    float: left;
+    border-radius:10%;  
+    border: 5px solid black;
+}
+
+#result{
+    margin: 0 2px;
+}
+
+#easy,#hard{
+    display: inline-block;
+}
+
+html,body{
+    background-color:#171717;
+    padding: 0;
+    margin:0;
+    font-family: roboto;
+}
+
+h1{
+    margin: 0;
+    background-color: steelblue;
+    color:white;
+    text-align: center;
+    padding:10px 0%;
+    font-family: tahoma;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#secretColor{
+    font-size: 200%;
+}
+
+.stripe{
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+button{
+    border: 0;
+    background-color:
+    white;
+    font-size: 18px;
+    height: 100%;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+button:hover{
+    background-color: steelblue;
+    color: white;
+}
+
+
+
+#score{
+    margin-right:20%;
+}
+#result{
+    margin-left:20%;
+}
+
+.skip{
+    padding: 10px;
+    border-color: tomato;
+    color:white;
+}
+
+}
+
+/* Desktp css property when screen size changes */
+@media (min-width:768px){    
+    .container{
+        width:1080px;
+    }
+    .square{
+        height: 200px;
+        width: 24%;
+        border: 5px solid black;
+    }
+    #result{
+        margin: 0 2px;
+    }
+
+    #easy,#hard{
+        display: inline-block;
+    }
+
+}
