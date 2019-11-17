@@ -1,4 +1,4 @@
-# Guess_My_Color_RGB
+# Guess My Color RGB - A free RGB based color guessing game
 
 # About : 
 Death By RGB is for people like me who keep forgetting color combinations.
